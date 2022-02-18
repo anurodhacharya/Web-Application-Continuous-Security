@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-    magen 'Maven' 
+    maven 'Maven' 
   }
   stages {
     stage ('Initialize') {
